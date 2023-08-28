@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
 # Lectura del CSV
-data = pd.read_csv('salida_ordenada.csv', delimiter=',')
+data = pd.read_csv('nombre_del_csv.csv', delimiter=',')
 data.columns = ["Date first seen", "Date last seen", "Proto", "Src IP Addr", "Dst IP Addr", "Src Pt", "Dst Pt", "In Pkt", "In Byte"]
 
 # Limpiar el DataFrame
